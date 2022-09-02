@@ -9,9 +9,9 @@ import java.util.Scanner;
  * Z publicznego API: https://jsonplaceholder.typicode.com pobierz wszystkie zapisane posty znajdujące się pod adresem
  * https://jsonplaceholder.typicode.com/posts tak by po wywołaniu metody getPosts() można było wypisać wszystkie elementy w konsoli,
  * podobnie jak wypisuje je przeglądarka po wejściu w link.
- *
+ * <p>
  * Można skorzystać z dowolnych sposobów pobierania danych z API dostępnych dla języka Java.
- * */
+ */
 
 public class ThirdTask {
 

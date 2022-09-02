@@ -24,7 +24,7 @@ public class SecondTask {
         return perfectNumbers;
     }
 
-    public static Integer sumArrayList(ArrayList<Integer> perfectNumbers) {
+    public static int sumArrayList(ArrayList<Integer> perfectNumbers) {
         return perfectNumbers.stream()
                 .mapToInt(Integer::intValue)
                 .sum();
@@ -34,9 +34,9 @@ public class SecondTask {
         System.out.println(findNPerfectNumbers(4));
         int result = sumArrayList(findNPerfectNumbers(4));
 
-        if(result == 4){
+        if (result == 4) {
             System.out.println("That is the perfect number");
-        }else {
+        } else {
             System.out.println("This is not a perfect number");
         }
     }

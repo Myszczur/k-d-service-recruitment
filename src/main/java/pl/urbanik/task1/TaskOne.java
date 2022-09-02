@@ -1,24 +1,25 @@
 package pl.urbanik.task1;
 
-/** Napisz ciało metody createPicture(int n), która dla dowolnego n > 0 stworzy gotowy do wypisania w konsoli wzór.
- *
+/**
+ * Napisz ciało metody createPicture(int n), która dla dowolnego n > 0 stworzy gotowy do wypisania w konsoli wzór.
+ * <p>
  * Przykłady:
- *
+ * <p>
  * Dla n = 1 w konsoli powinien pojawić się wzór:
  * 1
- *
+ * <p>
  * Dla n = 2 w konsoli powinien pojawić się wzór:
  * 2 2 2
  * 2 1 2
  * 2 2 2
- *
+ * <p>
  * Dla n = 3 w konsoli powinien pojawić się wzór:
  * 3 3 3 3 3
  * 3 2 2 2 3
  * 3 2 1 2 3
  * 3 2 2 2 3
  * 3 3 3 3 3
- *
+ * <p>
  * Dla n = 4 w konsoli powinien pojawić się wzór:
  * 4 4 4 4 4 4 4
  * 4 3 3 3 3 3 4
@@ -27,7 +28,6 @@ package pl.urbanik.task1;
  * 4 3 2 2 2 3 4
  * 4 3 3 3 3 3 4
  * 4 4 4 4 4 4 4
- *
  */
 
 public class TaskOne {
@@ -60,9 +60,8 @@ public class TaskOne {
     }
 
     /**
-    * Drugie lepsze rozwiązanie problemu
-    *
-    * */
+     * Drugie lepsze rozwiązanie problemu
+     */
     private static String createPictureTwo(int n) {
         StringBuilder result = new StringBuilder();
         if (n < 0) {
