@@ -33,8 +33,7 @@ public class ThirdTask {
             Scanner scanner = new Scanner(url.openStream());
 
             while (scanner.hasNext()) {
-                inline.append(scanner.nextLine());
-                inline.append("\n");
+                inline.append(scanner.nextLine()).append("\n");
             }
             scanner.close();
 
